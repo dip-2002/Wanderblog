@@ -186,7 +186,7 @@ const SeasonalTravelTimeline = () => {
       id="seasonal-travel" 
       className={`py-16 px-4 md:px-8 transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'} bg-gradient-to-r from-green-50 to-green-200`}
     >
-      <h2 className="text-4xl font-bold text-center mb-12 text-teal-800">Seasonal Escapes</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-teal-800">Seasonal Escapades</h2>
       <div className="flex justify-center space-x-6 mb-10">
         {seasons.map((season) => {
           const Icon = season.icon;
